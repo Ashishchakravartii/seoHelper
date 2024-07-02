@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto";
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.mainTop {
+  background-image: url("../webAsset/Frame1.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 79.5vh;
+ 
+}
+.navBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vmax 6vmax;
+  display: flex;
+}
+
+.navBtnBox > button {
+  background-color: #00aeef;
+  color: white;
+  border: none;
+  padding: 1vmax 2.8vmax;
+  border-radius: 30px;
+  font-size: 1.3vmax;
+}
+
+.mainTop>div:nth-child(2){
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vmax;
+  color: white;
+  font-weight: 100;
+}

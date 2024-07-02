@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ikounselor</title>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      
+      
+      <div class="mainTop">
+        <div class="navBox">
+          <h3>ikounselor</h3>
+          <span>
+            <button>Start a Meeting</button>
+            <button><i class="ri-menu-line"></i></button>
+          </span>
+        </div>
+          <h1>ikounselor</h1>
+      </div>
+        <div class="contentBox">
+          <div class="contentBoxLeft">
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fuga unde vel sint atque veniam illum reprehenderit inventore dolore quas quo dicta delectus, ipsa earum. Earum repellat eum reprehenderit, dolorem quasi esse magnam iusto ipsa neque dignissimos nobis praesentium. Aliquam, facilis nesciunt itaque minima tenetur tempore facere suscipit illo necessitatibus?
+            </p>
+          </div>
+          <div class="contentBoxRight">
+             <% if(data){ %>
+            <img src="/images/<%= data.image %>" alt="<%= data.altTag %>">
+            <% } %>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

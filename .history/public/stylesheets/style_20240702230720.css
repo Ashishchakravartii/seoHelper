@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto";
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+ 
+}
+.mainTop {
+  background-image: url("../webAsset/Frame1.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 79.5vh;
+ 
+}
+.navBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vmax 6vmax;
+  display: flex;
+}
+.navBox>h3{
+  display: flex;
+  align-items: center;
+  font-size: 3vmax;
+  font-weight: 400;
+  
+}
+
+.navBtnBox > a {
+  background-color: #00aeef;
+  color: white;
+  border: none;
+  padding: 0.65vmax 2.8vmax;
+  border-radius: 30px;
+  font-size: 1.4vmax;
+  margin-left: 1vmax;
+  text-decoration: none;
+}
+.navBtnBox > button {
+  background-color: #00aeef;
+  color: white;
+  border: none;
+  padding: 0.65vmax 2.8vmax;
+  border-radius: 30px;
+  font-size: 1.4vmax;
+  margin-left: 1vmax;
+}
+
+.mainTop>div:nth-child(2){
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vmax;
+  color: white;
+  font-weight: 100;
+}
+
+.contentBox{
+  background-color: #EEE4D7;
+  width: 85%;
+  height: 70%;
+  display: flex;
+  margin: auto;
+  margin-top: -10vmax;
+}
+.contentBox>div:first-child{
+  width: 60%;
+  height: 100%;
+  
+}
+.contentBox>div:nth-child(2){
+  width: 40%;
+  height: 100%;
+  
+}
+.contentBox>div>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contentBoxLeft>div:first-child{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.contentBoxLeft>div:first-child>h1{
+  font-weight: 400;
+    margin-left: 3.9vmax;
+    margin-top: 2vmax;
+}
+
+.contentBoxLeft>div:first-child>p{
+  font-weight: 400;
+  letter-spacing: 0.1vmin;
+  font-size: 1.5vmax;
+  width: 85%;
+  margin: auto;
+  margin-top: 1.2vmax;
+}
+
+.contentBoxLeft>div:nth-child(2){
+  width: 100%;
+  height: 25%;
+  background-color: #03668B;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contentBoxLeft>div:nth-child(2)>button{
+  padding: 0.8vmax 3vmax;
+  border: 1px solid white;
+  border-radius: 35px;
+  background-color: #00aeef;
+  color: white;
+  font-size: 1.9vmax;
+}
+.contentBoxLeft>div:nth-child(2)>h1{
+  font-size: 1.9vmax;
+  font-weight: 400;
+}
+
+/* ---------------------- Amin page styles ------------------------ */
+
+.adminMain{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../webAsset/Frame1.webp");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainImageBox{
+  width: 80%;
+  height: 80%;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainImageBox>div{
+width: 30%;
+height: 40%;
+}
+.mainImageBox>div>img{
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mainImageBox>form{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+}
+.mainImageBox>form>input{
+  background-color: white;
+  border: 0;
+  border-radius: 30px;
+  padding: 1vmax;
+  width: 80%;
+  margin-top: 1vmax;
+}
+.mainImageBox>form>button{
+  padding: 1vmax ;
+  width: 80%;
+  margin-top: 1vmax;
+  border: 0;
+  border-radius: 30px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ikounselor</title>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      
+      
+      <div class="mainTop">
+        <div class="navBox">
+          <h3 style="color: #00AEEF;"> <img width="38px" src="/webAsset/favicon (2).png" alt="logo"> &nbsp; ikounselor</h3>
+          <span class="navBtnBox"> 
+            <a > &nbsp; &nbsp;Admin Dashboard &nbsp; &nbsp;</a>
+            <button><i class="ri-menu-line"></i></button>
+          </span>
+        </div>
+        <div>
+          <h1>Hello GURU sir! This is my task submission.</h1>
+
+        </div>
+      </div>
+        <div class="contentBox">
+          <div class="contentBoxLeft">
+            <div>
+             <h1>Overview</h1>
+              <p>
+             Being an island country, Ireland is captivated by its landscapes and beauty. Studying in Ireland brings a blend of idyllic scenery and vibrant modernity. It is rich in adventure, history, culture and entertainment & is recognized for its world-class academic reputation among global scholars. Ireland has grown from the poorest country to an empowered one, offering free education to the university level, making it a popular destination for international students.
+              </p>
+            </div>
+            <div>
+              <h1>Enquire Now!</h1>
+              <button>Ask Our Experts</button>
+            </div>
+          </div>
+          <div class="contentBoxRight">
+             <% if(data){ %>
+            <img src="/images/<%= data.image %>" alt="<%= data.altTag %>">
+            <% } %>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

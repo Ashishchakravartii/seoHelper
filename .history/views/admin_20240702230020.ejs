@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+</head>
+<body>
+    <div class="adminMain">
+         <div class="navBox">
+          <h3 style="color: #ffffff;"> <img width="38px" src="/webAsset/favicon (2).png" alt="logo"> &nbsp; ikounselor</h3>
+          <span class="navBtnBox"> 
+            <a href="/" > &nbsp; &nbsp;Home &nbsp; &nbsp;</a>
+          </span>
+        </div>
+        <div class="mainImageBox">
+            <div>
+                <h2>Main Image Preview</h2>
+                <% if(data){ %>
+                    <img src="/images/<%= data.image %>" alt="<%= data.altTag %>">
+                    <% } %>
+                </div>
+            <form action="/imgDesc" method="post" enctype="multipart/form-data">
+                <input type="file" placeholder="upload image" name="image">
+                <input type="text" placeholder="altTag" name="altTag">
+                <input type="text" placeholder="metaTag" name="metaTag">
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
